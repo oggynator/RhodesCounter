@@ -11,7 +11,7 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello from Render!</title>
+    <title>Leeeetssss goooooooooooooooo!</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       setTimeout(() => {
@@ -48,7 +48,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Danmark er overtaget Grækenland";
   }
 }, 1000);
     </script>
@@ -77,12 +77,25 @@ var x = setInterval(function() {
         margin-right: -50%;
         transform: translate(-50%, -50%);
       }
+      .bg {
+        /* The image used */
+        background-image: url("sleep.jpg");
+      
+        /* Full height */
+        height: 50%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     </style>
   </head>
   <body>
     <section>
       Dage til Druk Eksil hændelsen 2023!
       <p id="demo"></p>
+      <div class="bg"></div>
     </section>
     
   </body>
