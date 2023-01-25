@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3001;
+app.use(Express.static(__dirname+'/public'));
 
 app.get("/", (req, res) => res.type('html').send(html));
 
@@ -79,7 +80,7 @@ var x = setInterval(function() {
       }
       .bg {
         /* The image used */
-        background-image: url('./sleep.jpg');
+        background-image: url('/images/sleep.jpg');
       
         /* Full height */
         height: 50%; 
@@ -95,7 +96,7 @@ var x = setInterval(function() {
     <section>
       Dage til Druk Eksil hændelsen 2023!
       <p id="demo"></p>
-      <img src="./sleep.jpg" alt="ferie tilstand">
+      <img src="/images/sleep.jpg" alt="ferie tilstand">
       <div class="bg"></div>
       
     </section>
