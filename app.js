@@ -79,7 +79,7 @@ var x = setInterval(function() {
       }
       .bg {
         /* The image used */
-        background-image: url("sleep.jpg");
+        background-image: url("./sleep.jpg");
       
         /* Full height */
         height: 50%; 
