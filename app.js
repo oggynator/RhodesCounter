@@ -98,7 +98,7 @@ var x = setInterval(function() {
       <p id="demo"></p>
       <img src="/images/sleep.jpg" alt="ferie tilstand">
       <div class="bg"></div>
-      <marquee width="60%" direction="right" height="100px">
+      <marquee width="60%" direction="left" height="100px">
         Denne hjemmeside er sponsoreret af Butterfly Valley, brug koden "kasper2023" for 10% rabat.
       </marquee>
       
