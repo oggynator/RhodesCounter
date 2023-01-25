@@ -79,7 +79,7 @@ var x = setInterval(function() {
       }
       .bg {
         /* The image used */
-        background-image: url("./sleep.jpg");
+        background-image: url('./sleep.jpg');
       
         /* Full height */
         height: 50%; 
@@ -95,7 +95,9 @@ var x = setInterval(function() {
     <section>
       Dage til Druk Eksil hændelsen 2023!
       <p id="demo"></p>
+      <img src="./sleep.jpg" alt="ferie tilstand">
       <div class="bg"></div>
+      
     </section>
     
   </body>
