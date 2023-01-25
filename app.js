@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3001;
-app.use(Express.static(__dirname+'/public'));
+app.use(express.static(__dirname+'/public'));
 
 app.get("/", (req, res) => res.type('html').send(html));
 
@@ -98,6 +98,9 @@ var x = setInterval(function() {
       <p id="demo"></p>
       <img src="/images/sleep.jpg" alt="ferie tilstand">
       <div class="bg"></div>
+      <marquee width="60%" direction="right" height="100px">
+        Denne hjemmeside er sponsoreret af Butterfly Valley, brug koden "kasper2023" for 10% rabat.
+      </marquee>
       
     </section>
     
