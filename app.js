@@ -100,6 +100,10 @@ var x = setInterval(function() {
       <audio src="/images/Zorba.mp3" autoplay>
         <p>Hvis du ser denne besked er det fordi du har en lortebrowser</p>
       </audio>
+      <a class="weatherwidget-io" href="https://forecast7.com/da/36d4328d22/rhodes/" data-label_1="RHODOS" data-label_2="Drik øl udsigt" data-theme="original" >RHODOS Drik øl udsigt</a>
+      <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+      </script>
       <div class="bg"></div>
       <marquee width="60%" direction="left" height="100px">
         Denne hjemmeside er sponsoreret af Butterfly Valley, brug koden "kasper2023" for 10% rabat.
